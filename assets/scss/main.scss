@@ -1,4 +1,8 @@
-* {
-  margin: 0;
-  padding: 0;
-}
+// get the variables
+@import "utilities/variables";
+
+// zero out the css
+@import "utilities/normalise";
+
+// style the components of the site
+@import "layout/header";

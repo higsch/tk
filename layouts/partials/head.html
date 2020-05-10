@@ -13,4 +13,6 @@
   {{ $scss := resources.Get "scss/main.scss" }}
   {{ $style := $scss | resources.ToCSS $options }}
   <link rel="stylesheet" href="{{ $style.Permalink }}">
+
+  <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Indie+Flower&family=Walter+Turncoat&display=swap" rel="stylesheet">
 </head>
