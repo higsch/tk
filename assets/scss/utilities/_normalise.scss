@@ -29,10 +29,12 @@ body {
 a {
   padding-bottom: 0.15rem;
   text-decoration: none;
-  color: $purple;
-  border-bottom: 0.1rem solid $purple;
+  color: $gray;
+  border-bottom: 0.1rem solid $gray;
+  transition: all 200ms;
 
   &:hover {
-    border-color: $red;
+    color: $purple;
+    border-color: $purple;
   }
 }

@@ -39,13 +39,14 @@ header {
       }
 
       a {
+        margin: 3rem 0 0 0;
         text-decoration: none;
         color: $red;
         border: none;
         
         h1.title {
           font-family: 'Indie Flower', cursive;
-          font-size: 4rem;
+          font-size: calc(3rem + 2vw);
           font-weight: bold;
         }
       }
@@ -65,7 +66,13 @@ header {
             a {
               color: $darkgray;
               text-decoration: none;
-              border: none;
+              border-bottom: 0.15rem solid $bg;
+              transition: all 200ms;
+
+              &:hover {
+                color: $purple;
+                border-bottom: 0.15rem solid $purple;
+              }
             }
           }
         }
