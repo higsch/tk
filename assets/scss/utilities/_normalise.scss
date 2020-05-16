@@ -29,13 +29,12 @@ body {
 a {
   padding-bottom: 0.15rem;
   text-decoration: none;
-  color: $gray;
-  border-bottom: 0.1rem solid $gray;
-  transition: all 200ms;
-
+  color: $red;
+  border-bottom: 0 solid $red;
+  transition: border 100ms;
+  
   &:hover {
-    color: $purple;
-    border-color: $purple;
+    border-bottom: 0.07rem solid $red;
   }
 }
 
