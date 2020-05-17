@@ -89,5 +89,14 @@ header {
         font-weight: bold;
       }
     }
+
+    h2.subtitle {
+      position: absolute;
+      left: 47%;
+      top: 13.3rem;
+      font-family: 'Raleway', cursive;
+      font-size: 1.1rem;
+      color: $lightgray;
+    }
   }
 }

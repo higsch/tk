@@ -5,7 +5,9 @@
 @import "utilities/normalise";
 
 // style the components of the site
+@import "layout/cookiebanner";
 @import "layout/header";
 @import "layout/content";
+@import "layout/home";
 @import "layout/single";
 @import "layout/footer";
