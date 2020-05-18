@@ -49,6 +49,10 @@
       grid-column: 5 / -1;
     }
 
+    .middle-column {
+      grid-column: 5 / 9;
+    }
+
     ul {
       grid-column: 5 / -1;
       text-align: left;
@@ -79,6 +83,10 @@
 
       &.full-width {
         grid-column: 1 / 13;
+      }
+
+      &.right {
+        grid-column: 9 / -1;
       }
 
       &.emblem {
