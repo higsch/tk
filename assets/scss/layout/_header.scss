@@ -60,16 +60,21 @@ header {
         li {
           &::before {
             content: '|';
+            display: inline-block;
+            position: relative;
+            margin-right: 0.1rem;
             color: $red;
           }
 
           a {
             color: $darkgray;
             text-decoration: none;
+            border: none;
             transition: all 200ms;
 
             &:hover {
               color: $red;
+              border: none;
             }
           }
         }
