@@ -25,10 +25,6 @@ footer {
       margin: 0.5rem 0 1rem 0;
       font-family: 'Indie Flower', cursive;
       font-size: 0.8rem;
-
-      & * {
-        border: none;
-      }
       
       .imprint-wrapper {
         display: flex;
@@ -38,10 +34,7 @@ footer {
         }
 
         a {
-          transition: all 200ms;
-          &:hover {
-            color: $purple;
-          }
+          padding-bottom: 0;
         }
       }
     }
