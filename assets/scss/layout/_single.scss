@@ -4,8 +4,8 @@
   align-items: center;
   width: 100%;
   max-width: 1100px;
-  margin: 2em auto;
-  padding: 0 2.5rem;
+  margin: 1rem auto;
+  padding: 0 2rem;
   // border: 1px solid black;
 
   h1, h2.home-subtitle {
@@ -36,17 +36,20 @@
 
     h3 {
       grid-column: 1 / 5;
+      margin: 1rem 0 0 0;
       text-align: left;
       font-family: 'Indie Flower', cursive;
       font-weight: 400;
 
       @media screen and (min-width: $break-s) {
         text-align: right;
+        margin: 0;
       }
     }
 
     p {
       grid-column: 5 / -1;
+      overflow-x: hidden;
     }
 
     .middle-column {
